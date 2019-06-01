@@ -1,0 +1,37 @@
+	<!DOCTYPE html>
+	<html ng-app="pokemon">
+	<head>
+		<link rel="stylesheet" type="text/css" href="../lib/boo/dist/css/bootstrap.css">
+		<link rel="stylesheet" href="../css/pokedex.css">
+		<script src="../lib/jquery.js"></script>
+		<title>NeaPokiApp</title>
+	</head>
+	<body ng-controller="listadopokemon">
+
+		<div class="container-fluid bar">
+			<div class="row atotal">
+				<div class="col-md-12 vCenter atotal">
+					<span class="titulo">Pokedex</span>
+				</div>
+			</div>
+		</div>
+		<!--01101100 01101001 01110011 01110100 01100001 01100100 01101111 00100000 01100100 01100101 00100000 01110000 01101111 01101011 01100101 01101101 01101111 01101110-->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3 pad" ng-repeat="p in listado">
+					<div class="pokeinfo">
+						<div class="padimg">
+							<img class="img-responsive pica" src="{{p.data.sprites.front_default}}" alt="pikachu">
+						</div>
+						<div class="nompoke">
+							{{p.data.name}}
+						</div>
+					</div>
+				</div>
+			</div>		
+		</div>
+		<script src="../lib/angular.js"></script>
+		<script src="../lib/boo/dist/js/bootstrap.js"></script>
+		<script src="../js/script.js"></script>
+	</body>
+	</html>

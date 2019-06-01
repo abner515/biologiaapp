@@ -1,0 +1,40 @@
+.bar{
+	height: 80px;
+	background-color:#F1524F;
+}
+.titulo{
+	color:#ffffff;
+}
+.pokeinfo{
+	width: 50%;
+	border: 2px solid #000;
+	height: 250px;
+}
+.pad{
+	padding: 5%;
+}
+.vCenter{
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+.atotal{
+	height: 100%;
+}
+.padimg{
+	width: 100% !important;
+	height: 90%;
+
+}
+/*01000101 01110010 01101001 01100011 01101011*/
+.pica{
+	width: 300%;
+	height: 200px;
+}
+.nompoke{
+	background-color: #EBF4EF;
+	padding:4%;
+	border: 2px solid black;
+	font-weight: bold;
+}
